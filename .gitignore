@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Trained model files (large binaries)
+*.model
+*.model.wv.vectors_ngrams.npy
+*.npy
+*.pkl
+*.bin
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+
+# Large pretrained embeddings / vectors
+*.vec
+*.vec.zip
+*.bin.gz
+
+# Logs and caches
+*.log
+*.cache
+.cache/
+wandb/
+mlruns/
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
