@@ -59,3 +59,7 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# FILE
+pos_enc.png
+positional_encoding_representation.py
